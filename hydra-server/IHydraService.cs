@@ -10,8 +10,8 @@ namespace Hydra
     {
 
         [OperationContract]
-        [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate="myfirstget")]
-        string GetData(int value);
+        [WebGet(UriTemplate="myfirstget", ResponseFormat = WebMessageFormat.Json)]
+        string GetData();
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);

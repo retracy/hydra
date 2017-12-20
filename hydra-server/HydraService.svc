@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="hydra_service.Service1" CodeBehind="HydraService.svc.cs" %>
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Hydra.HydraService" CodeBehind="HydraService.svc.cs" %>

@@ -4,9 +4,9 @@ namespace Hydra
 {
     public class HydraService : IHydraService
     {
-        public string GetData(int value)
+        public string GetData()
         {
-            return string.Format("You entered: {0}", value);
+            return string.Format("Something happened!");
         }
 
         public CompositeType GetDataUsingDataContract(CompositeType composite)
