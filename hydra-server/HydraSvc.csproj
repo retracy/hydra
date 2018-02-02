@@ -100,7 +100,9 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>20445</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:20445/</IISUrl>
+          <IISUrl>http://localhost:20445</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:20445//HydraService.svc</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

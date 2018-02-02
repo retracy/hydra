@@ -10,7 +10,7 @@ namespace Hydra
     {
 
         [OperationContract]
-        [WebGet(UriTemplate="myfirstget", ResponseFormat = WebMessageFormat.Json)]
+        [WebGet(UriTemplate="sampleget", ResponseFormat = WebMessageFormat.Json)]
         string GetData();
 
         [OperationContract]
